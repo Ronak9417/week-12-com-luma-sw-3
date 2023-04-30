@@ -8,7 +8,7 @@ import org.openqa.selenium.support.ui.Select;
 
 public class Utilities extends BaseTest {
     /**
-     * This method is use to click on any element
+     * This method is used to click on any element
      *
      * @param by
      */

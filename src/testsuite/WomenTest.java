@@ -1,6 +1,7 @@
 package testsuite;
 
 import browserfactory.Utilities;
+import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
@@ -18,6 +19,11 @@ public class WomenTest extends Utilities {
     @Before
     public void setUp() {
         openBrowser(baseUrl);
+    }
+    @After
+    public void tearDown() {
+        // Close all open tabs
+        closeBrowser();
     }
 
     @Test
